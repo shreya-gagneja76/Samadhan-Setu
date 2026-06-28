@@ -9,17 +9,17 @@ India's 4,000+ urban local bodies receive millions of civic complaints annually 
 Samadhan Setu ("Bridge to Solutions") is a full-stack civic tech platform where citizens photograph issues, AI instantly categorises and prioritises them, and inspectors verify resolution using before/after image comparison — all powered by Gemini 2.5 Flash Vision.
 
 **Key capabilities:**
-- 📸 AI Vision Analysis — auto-categorise, severity-score, and tag issues from a single photo
-- ✅ AI Resolution Verification — before/after image comparison to confirm genuine fixes
-- 🤖 Gemini Chatbot — citizens ask questions about their ward's issues in natural language
-- 🗺️ Live Leaflet Map — real interactive map with severity-coded pins across ward divisions
-- ⏱️ SLA Accountability — countdown timers show resolution deadlines and overdue alerts
-- 🏆 Gamified Civic Engagement — karma points, rank progression, and ward leaderboard
+-  AI Vision Analysis — auto-categorise, severity-score, and tag issues from a single photo
+-  AI Resolution Verification — before/after image comparison to confirm genuine fixes
+-  Gemini Chatbot — citizens ask questions about their ward's issues in natural language
+-  Live Leaflet Map — real interactive map with severity-coded pins across ward divisions
+-  SLA Accountability — countdown timers show resolution deadlines and overdue alerts
+-  Gamified Civic Engagement — karma points, rank progression, and ward leaderboard
 
 ## Impact
 Reduces unresolved issue backlog, creates transparent accountability between citizens and municipal bodies, and enables data-driven decision making through real-time analytics dashboards.
 
-# Samadhan Setu 🏛️
+# Samadhan Setu 
 ### Bridging Citizens to Municipal Solutions
 
 Samadhan Setu is an AI-powered civic issue reporting and resolution platform 
@@ -28,22 +28,22 @@ hackathon, it enables citizens to report infrastructure problems using
 AI vision analysis, track resolution progress, and earn karma points for 
 civic participation.
 
-## ✨ Features
+##  Features
 
-- 📸 **AI Issue Reporting** — Upload a photo; Gemini 2.5 Flash Vision 
+-  **AI Issue Reporting** — Upload a photo; Gemini 2.5 Flash Vision 
   auto-detects category, severity, department, and urgency score
-- ✅ **Resolution Verification** — Before/after image comparison using 
+-  **Resolution Verification** — Before/after image comparison using 
   Gemini Vision to confirm if an issue is genuinely fixed
-- 🗺️ **Ward Map View** — Offline SVG ward canvas with real-time issue pins
-- 📊 **Analytics Dashboard** — Live charts for category breakdown, 
+-  **Ward Map View** — Offline SVG ward canvas with real-time issue pins
+-  **Analytics Dashboard** — Live charts for category breakdown, 
   severity distribution, and recurrence probability
-- 👤 **Dual Role System** — Citizen and Municipal Inspector roles with 
+-  **Dual Role System** — Citizen and Municipal Inspector roles with 
   different permissions and activity logs
-- 🏆 **Karma & Badges** — Points system rewarding reporting, upvoting, 
+-  **Karma & Badges** — Points system rewarding reporting, upvoting, 
   and verifying resolutions
-- 🌙 **Dark Mode** — Full dark/light theme with persistence
+-  **Dark Mode** — Full dark/light theme with persistence
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend:** React 19, TypeScript, Tailwind CSS v4, Recharts, Lucide React
 - **Backend:** Node.js, Express, Vite (full-stack SSR dev mode)
@@ -51,20 +51,10 @@ civic participation.
 - **Storage:** localStorage (client-side persistence)
 - **Deployment:** Google Cloud Run via AI Studio
 
-## 🚀 Run Locally
+## Deployed Link
+https://samadhan-setu-604711183064.asia-southeast1.run.app 
 
-**Prerequisites:** Node.js 18+
-
-1. Clone the repository
-2. Install dependencies:
-npm install
-3. Create a `.env.local` file and add your Gemini API key:
-GEMINI_API_KEY=your_gemini_api_key_here
-4. Start the development server:
-npm run dev
-5. Open `http://localhost:3000`
-
-## 🔑 Demo Login
+## Demo Login
 
 - **As Citizen:** Any standard email (e.g. `citizen@gmail.com`) + any password
 - **As Inspector:** Email containing `inspector` / `officer` or ending 
@@ -72,7 +62,7 @@ npm run dev
 
 > Note: Authentication is demo-mode only for hackathon purposes.
 
-## 📁 Project Structure
+##  Project Structure
 src/
 
 ├── App.tsx                    # Root state, handlers, toast system
@@ -103,7 +93,7 @@ src/
 
 server.ts                      # Express server + Gemini API endpoints
 
-## 🤖 AI Endpoints
+##  AI Endpoints
 
 | Endpoint | Method | Description |
 |---|---|---|

@@ -1,0 +1,6 @@
+{
+  "name": "Samadhan Setu",
+  "description": "An AI-powered civic issue reporting platform for Indian citizens, bridging the gap between citizens and municipal municipal solutions.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
